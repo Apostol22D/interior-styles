@@ -1,0 +1,364 @@
+/*Головна*/
+body {
+    background-color: rgb(213, 215, 241);
+}
+header{
+    background-color: rgb(145, 153, 240);
+    padding: 10px;
+    font-size: 25px;
+}
+h1{
+    color: rgb(20, 20, 93);
+    text-align: center;
+    word-spacing: 12px;
+}
+nav {
+    background-color: rgb(54, 35, 146);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a{
+    display: block;
+    color: rgb(168, 157, 226);
+    padding: 20px 20px;
+}
+nav li a:hover{
+    background-color: rgb(9, 4, 61);
+}
+img{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+section{
+    display: block;
+    color: rgb(43, 64, 139);
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    h1{
+        text-align: left;
+    }
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(99, 114, 195);
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*Лофт*/
+body.page-loft{
+    background-color: rgb(218, 152, 86);
+}
+header.page-loft{
+    background-color: rgb(86, 24, 7);
+    padding: 10px;
+    font-size: 25px;
+}
+h1.page-loft{
+    color: rgb(215, 59, 35);
+    text-align: center;
+    word-spacing: 12px;
+}
+nav.page-loft{
+    background-color: rgb(146, 61, 35);
+}
+nav ul.page-loft{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-loft{
+    display: block;
+    color: rgb(255, 149, 99);
+    padding: 20px 20px;
+}
+nav li a:hover.page-loft{
+    background-color: rgb(61, 22, 4);
+}
+section.page-loft{
+    display: block;
+    color: rgb(95, 33, 16);
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    h1{
+        color: rgb(95, 33, 16);
+        text-align: left;
+    }  
+}
+img.page-loft{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+footer.page-loft{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(227, 181, 143);
+    color:rgb(95, 33, 16);
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*Бохо*/
+body.page-boxo{
+    background-color: rgb(199, 246, 224);
+}
+header.page-boxo{
+    background-color: rgb(83, 218, 155);
+    padding: 10px;
+    font-size: 25px;
+}
+h1.page-boxo{
+    color: rgb(24, 101, 65);
+    text-align: center;
+    word-spacing: 12px;
+}
+nav.page-boxo{
+    background-color: rgb(138, 239, 192);
+}
+nav ul.page-loft{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-boxo{
+    display: block;
+    color: rgb(28, 107, 71);
+    padding: 20px 20px;
+}
+nav li a:hover.page-boxo{
+    background-color: rgb(42, 174, 113);
+}
+section.page-boxo{
+    display: block;
+    color: rgb(19, 95, 60);
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    h1{
+        color: rgb(13, 60, 38);
+        text-align: left;
+    }  
+}
+img.page-boxo{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+footer.page-boxo{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(69, 201, 140);
+    color:rgb(14, 90, 54);
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*Еклектика*/
+body.page-eklektika{
+    background-color: rgb(250, 214, 214);
+}
+header.page-eklektika{
+    background-color: rgb(218, 110, 83);
+    padding: 10px;
+    font-size: 25px;
+}
+h1.page-eklektika{
+    color: rgb(152, 39, 16);
+    text-align: center;
+    word-spacing: 12px;
+}
+nav.page-eklektika{
+    background-color: rgb(239, 161, 138);
+}
+nav ul.page-eklektika{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-eklektika{
+    display: block;
+    color: rgb(107, 43, 28);
+    padding: 20px 20px;
+}
+nav li a:hover.page-eklektika{
+    background-color: rgb(188, 89, 69);
+}
+section.page-eklektika{
+    display: block;
+    color: rgb(95, 34, 19);
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    h1{
+        color: rgb(48, 16, 5);
+        text-align: left;
+    }  
+}
+img.page-eklektika{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+footer.page-eklektika{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(149, 60, 36);
+    color:rgb(255, 145, 118);
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*Ар-деко*/
+body.page-ardeco{
+    background-color: rgb(237, 196, 244);
+}
+header.page-ardeco{
+    background-color: rgb(159, 68, 173);
+    padding: 10px;
+    font-size: 25px;
+}
+h1.page-ardeco{
+    color: rgb(90, 16, 101);
+    text-align: center;
+    word-spacing: 12px;
+}
+nav.page-ardeco{
+    background-color: rgb(197, 101, 212);
+}
+nav ul.page-ardeco{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-ardeco{
+    display: block;
+    color: rgb(138, 28, 155);
+    padding: 20px 20px;
+}
+nav li a:hover.page-ardeco{
+    background-color: rgb(89, 14, 100);
+}
+section.page-ardeco{
+    display: block;
+    color: rgb(95, 34, 19);
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    h1{
+        color: rgb(48, 16, 5);
+        text-align: left;
+    }  
+}
+img.page-ardeco{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+footer.page-ardeco{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(110, 23, 123);
+    color:rgb(234, 126, 251);
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*Прованс*/
+body.page-provans{
+    background-color: rgb(255, 247, 220);
+}
+header.page-provans{
+    background-color: rgb(106, 86, 21);
+    padding: 10px;
+    font-size: 25px;
+}
+h1.page-provans{
+    color: rgb(252, 228, 152);
+    text-align: center;
+    word-spacing: 12px;
+}
+nav.page-provans{
+    background-color: rgb(209, 185, 105);
+}
+nav ul.page-provans{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-provans{
+    display: block;
+    color: rgb(138, 116, 43);
+    padding: 20px 20px;
+}
+nav li a:hover.page-provans{
+    background-color: rgb(78, 65, 14);
+}
+section.page-provans{
+    display: block;
+    color: rgb(95, 34, 19);
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    h1{
+        color: rgb(48, 16, 5);
+        text-align: left;
+    }  
+}
+img.page-provans{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+footer.page-provans{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(67, 53, 8);
+    color:rgb(243, 218, 137);
+    margin-top: 50px;
+    font-size: 20px;
+}
